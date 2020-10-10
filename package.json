@@ -1,0 +1,23 @@
+{
+  "name": "afec-demo1",
+  "version": "1.0.0",
+  "description": "Hey now it's correct markdown ^^",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbuwu/afec-demo1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbuwu/afec-demo1/issues"
+  },
+  "homepage": "https://github.com/hbuwu/afec-demo1#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}

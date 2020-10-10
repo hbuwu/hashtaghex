@@ -1,0 +1,17 @@
+{% extends "layouts/base.html" %} 
+
+<h1><a href="{{ site.url }}">{{ site.name }}</a></h1>
+
+<ul>
+
+    {% for item in navigatie.items %}
+  
+    <li>
+  
+      <a href="{{ item.url }}">{{ item.text }}</a>
+  
+    </li>
+  
+    {% endfor %}
+  
+  </ul>
