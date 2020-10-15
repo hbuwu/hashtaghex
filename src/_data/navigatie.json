@@ -1,47 +1,24 @@
 {
-
-    "items": [
-  
-      {
-  
-        "text": "Home",
-  
-        "url": "/"
-  
-      },
-  
-      {
-  
-        "text": "About",
-  
-        "url": "/about-us/"
-  
-      },
-  
-      {
-  
-        "text": "Work",
-  
-        "url": "/work/"
-  
-      },
-  
-      {
-  
-        "text": "Blog",
-  
-        "url": "/blog/"
-  
-      },
-  
-      {
-  
-        "text": "Contact",
-  
-        "url": "/contact/"
-  
-      }
-  
-    ]
-  
-  }
+  "items": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "About",
+      "url": "/about/"
+    },
+    {
+      "text": "News",
+      "url": "/news/"
+    },
+    {
+      "text": "Team",
+      "url": "/team/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ]
+}
