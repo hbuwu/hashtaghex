@@ -3,6 +3,7 @@ body {
 	margin: 5rem auto;
 	font-size: 2rem;
 	font-family: "helvetica neue",helvetica;
+	background-color: #50ade1;
 }
 
 header h1 a {
@@ -23,12 +24,15 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: firebrick;
+	color:#ef385d;
 }
 
 header nav ul li a.selected {
-	color: white;
-	background-color: firebrick;
+	color: #f5b5c2;
+}
+
+header nav ul li a:hover {
+	color: #ffffff;
 }
 
 header {
