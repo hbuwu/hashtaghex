@@ -1,20 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   font-family: sofia-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
 
 header {
-  height: 5vh;
-  display: flex;
-  justify-content: space-between;
+  height: 14vh;
   padding-left: 5rem;
   padding-right: 5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header img {
-  height: 100%;
+  display: block;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 nav {
@@ -23,8 +36,16 @@ nav {
 }
 
 nav a {
-  padding: 2rem;
-  font-size: 2rem;
+  padding: 1rem;
+  font-size: 14pt;
+  text-decoration: none;
+  color: #333333;
+  transition-duration: 0.4s;
+}
+
+nav a:hover {
+  color: #50ade1;
+  transition-duration: 0.4s;
 }
 
 /* Slideshow container */
@@ -37,7 +58,7 @@ nav a {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  max-height: 95vh;
+  max-height: 93vh;
   overflow: hidden;
 }
 
@@ -83,6 +104,36 @@ nav a {
   background-color: #717171;
 }
 
+h2 {
+  font-size: 22pt;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 17pt;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 13pt;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 13pt;
+}
+
+.titleDescription {
+  font-size: 13pt;
+}
+
+.aboutGrid, .teamGrid {
+  margin-top: 3rem;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -106,3 +157,37 @@ nav a {
   text-align: center;
 }
 
+footer {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 800px) {
+
+  header {
+    height: 7vh;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+  }
+  
+  header img {
+    height: 100%;
+    width: auto;
+    display: inline;
+    margin-left: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #333333;
+    transition-duration: 0.4s;
+  }
+
+}
