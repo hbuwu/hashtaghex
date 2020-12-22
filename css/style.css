@@ -1,10 +1,30 @@
 body {
   overflow-x: hidden;
-  font-family: Helvetica, sans-serif;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
-  height: 5rem;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+header img {
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 2rem;
+  font-size: 2rem;
 }
 
 /* Slideshow container */
@@ -17,14 +37,13 @@ header {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  max-height: 90vh;
+  max-height: 95vh;
   overflow: hidden;
 }
 
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-weight: bold;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
