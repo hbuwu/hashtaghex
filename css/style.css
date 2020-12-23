@@ -134,6 +134,17 @@ p {
   margin-top: 3rem;
 }
 
+#about, #portfolio, #team {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.aboutGrid div {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid black;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
