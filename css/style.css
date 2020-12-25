@@ -105,7 +105,7 @@ nav a:hover {
 }
 
 h2 {
-  font-size: 22pt;
+  font-size: 28pt;
   font-weight: 700;
   margin-bottom: 2rem;
 }
@@ -130,13 +130,28 @@ p {
   font-size: 13pt;
 }
 
-.aboutGrid, .teamGrid {
+.aboutGrid, .teamGrid, .portfolioButtons {
   margin-top: 3rem;
+}
+
+.portfolioButtons {
+  margin-bottom: 3rem;
 }
 
 #about, #portfolio, #team {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.portfolioItem img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.portfolioItem div {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid black;
 }
 
 .aboutGrid div {

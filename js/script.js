@@ -23,3 +23,11 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
+
+function portfolioSwitch(portfolioName) {
+    let item = document.getElementsByClassName("portfolioItem");
+    for (let index = 0; index < item.length; index++) {
+        item[index].style.display = "none";
+    }
+    document.getElementById(portfolioName).style.display = "block";
+}
