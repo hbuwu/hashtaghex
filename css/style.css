@@ -201,4 +201,58 @@ footer {
     transition-duration: 0.4s;
   }
 
+  .aboutGrid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10vw;
+    row-gap: 10rem;
+  }
+
+  .teamGrid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10vw;
+    row-gap: 10rem;
+  }
+
+  .aboutGrid div {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  #about, #portfolio, #team {
+    text-align: left;
+    padding-top: 10rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  h2 {
+    font-size: 48pt;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    font-size: 17pt;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  h4 {
+    font-size: 13pt;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 13pt;
+    line-height: 22pt;
+  }
+  
+  .titleDescription {
+    font-size: 13pt;
+  }
+
 }
