@@ -208,8 +208,8 @@ footer {
 
   header {
     height: 7vh;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
     display: flex;
   }
   
@@ -304,6 +304,10 @@ footer {
     margin-right: auto;
     display: flex;
     justify-content: space-between;
+  }
+
+  #team {
+    padding-bottom: 15rem;
   }
 
 }
